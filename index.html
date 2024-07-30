@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- simplycountdown -->
+  <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+  <script src="countdown/simplyCountdown.min.js"></script>
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Elvan & Tiara Wedding</title>
+</head>
+
+<body>
+
+  <section id="hero"
+    class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white ">
+    <main>
+      <h4>Kepada Bapak/Ibu/Saudara/i, </h4>
+      <h1><b>Elvan Praramdani & Tiara Martianti</b></h1>
+      <p>Akan melangsungkan resepsi pernikahan dalam : </p>
+      <div class="simply-countdown"></div>
+      <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
+    </main>
+  </section>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top mynavbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">elvan tiara Wedding</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Rael Wedding</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#info">Info</a>
+            <a class="nav-link" href="#story">Story</a>
+            <a class="nav-link" href="#rsvp">rsvp</a>
+            <a class="nav-link" href="#gifts">Gifts</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- home -->
+  <section id="home" class="home">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <h2>Acara Pernikahan</h2>
+          <h3>Diselenggarakan pada 22 Desember 2025 di Kuningan, Jawa Barat.</h3>
+          <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i untuk hadir
+            pada acara pernikahan kami.</p>
+        </div>
+      </div>
+
+      <div class="row couple">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-8 text-end">
+              <h3>Elvan Praramdani</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti nulla unde, quas eligendi odit
+                blanditiis!</p>
+              <p>Putra pertama dari Bpk. Pariatna <br> dan <br> Ibu Elly</p>
+            </div>
+            <div class="col-4">
+              <img src="img/d.jpg" alt="Elvan Praramdani" class="img-responsive rounded-circle">
+            </div>
+          </div>
+        </div>
+
+        <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-4">
+              <img src="img/c.jpg" alt="Tiara Martianti" class="img-responsive rounded-circle">
+            </div>
+            <div class="col-8">
+              <h3>Tiara Martianti</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti nulla unde, quas eligendi odit
+                blanditiis!</p>
+              <p>Putri pertama dari Bpk. Wardi <br> dan <br> Ibu Sumeti</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="info" class="info">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <h2>Informasi Acara</h2>
+          <p class="alamat">Alamat: Dusun Cicurug Rt.010 Rw.006 <br> Desa Galaherang Kec.Maleber Kab.Kuningan Jawa Barat
+          </p>
+          <a href="https://goo.gl/maps/xiX6KsUpKDKmWqcUA" target="_blank" class="btn btn-light btn-sm  my-3">Klik untuk
+            membuka peta</a>
+          <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak
+            ada tanda-tanda sedang dilangsungkan pernikahan boleh jadi anda salah jadwal, atau salah tempat.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-5 col-10">
+          <div class="card text-center text-bg-light text-black mb-4">
+            <div class="card-header">Akad Nikah</div>
+            <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>08.00 - 10.00</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar3 d-block"></i>
+                  <span>Senin, 22 Desember 2025</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer ">
+              Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusuan seluruh prosesi.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-10">
+          <div class="card text-center text-bg-light text-black">
+            <div class="card-header">Resepsi</div>
+            <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>11.00 - Selesai</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar3 d-block"></i>
+                  <span>Senin, 22 Desember 2025</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer ">
+              Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusuan seluruh prosesi.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="story" class="story">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <span>Bagaimana Cinta Kita Bersemi</span>
+          <h2>Cerita Kita</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas soluta nihil maxime voluptatibus placeat,
+            vitae ad quo ipsa maiores qui, quidem quam minima ab voluptatem numquam dicta nisi recusandae quibusdam.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image" style="background-image: url(img/e.jpg);"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>Pertama Bertemu</h3>
+                  <span>5 Juli 2022</span>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officia obcaecati nihil dolore quia
+                    est!</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-image" style="background-image: url(https://picsum.photos/300/300);"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>Mulai Pacaran</h3>
+                  <span>6 Agustus 2022</span>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officia obcaecati nihil dolore quia
+                    est!</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="timeline-image" style="background-image: url(https://picsum.photos/301/301);"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>Tunangan</h3>
+                  <span>6 Agustus 2022</span>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, magni.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galery" class="galery">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <span>Memori kisah kami</span>
+          <h2>Galeri Foto</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, culpa.</p>
+        </div>
+      </div>
+
+      <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+        <div class="col mt-3">
+          <a href="img/galeri/k.jpg" data-toggle="lightbox" data-caption="This describes the image"
+            data-gallery="mygallery">
+            <img src="img/galeri/thumbnail/k.jpg" alt="elvan & ara (1)" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+
+        <div class="col mt-3">
+          <a href="img/galeri/i.JPG" data-toggle="lightbox" data-caption="This describes the image"
+            data-gallery="mygallery">
+            <img src="img/galeri/thumbnail/i.JPG" alt="elvan & ara (2)" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+
+        <div class="col mt-3">
+          <a href="img/galeri/j.JPG" data-toggle="lightbox" data-caption="This describes the image"
+            data-gallery="mygallery">
+            <img src="img/galeri/thumbnail/j.JPG" alt="elvan & ara" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+
+        <div class="col mt-3">
+          <a href="img/galeri/l.jpg" data-toggle="lightbox" data-caption="This describes the image"
+            data-gallery="mygallery">
+            <img src="img/galeri/thumbnail/l.jpg" alt="elvan & ara" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+
+        <div class="col mt-3">
+          <a href="img/galeri/m.jpg" data-toggle="lightbox" data-caption="This describes the image"
+            data-gallery="mygallery">
+            <img src="img/galeri/thumbnail/m.jpg" alt="elvan & ara" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+
+        <div class="col mt-3">
+          <a href="img/galeri/n.jpg" data-toggle="lightbox" data-caption="This describes the image"
+            data-gallery="mygallery">
+            <img src="img/galeri/thumbnail/n.jpg" alt="elvan & ara" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="rsvp" class="rsvp">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <h2>Informasi Kehadiran</h2>
+          <p>Isi form di bawah ini untuk melakukan konfirmasi kehadiran.</p>
+        </div>
+      </div>
+
+      <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST"
+        action="https://script.google.com/macros/s/AKfycbwAEPz16TVcLaMqPlgiJhF-FP5CThY7c36HHXQIrwfy1fL6sVRDWmU6kCi1PJDUhzTu/exec"
+        id="my-form">
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" name="nama">
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="jumlah" class="form-label">Jumlah</label>
+            <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="status" class="form-label">Konfirmasi</label>
+            <select name="status" id="status" class="form-select">
+              <option selected>Pilih Salah Satu</option>
+              <option value="Hadir">Hadir</option>
+              <option value="Tidak Hadir">Tidak Hadir</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-12" style="margin-top: 35px;">
+          <button class="btn btn-primary">Kirim</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="gifts" class="gifts">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <span>Ungkapan tanda kasih</span>
+          <h2>Kirim Hadiah</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consequuntur illum blanditiis laborum.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center text-center">
+        <di class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <div class="fw-bold">BCA</div>
+              123456789 - Elvan Praramdani
+            </li>
+
+            <li class="list-group-item">
+              <div class="fw-bold">BRI</div>
+              12345678910 - Elvan Praramdani
+            </li>
+
+            <li class="list-group-item">
+              <div class="fw-bold">DANA</div>
+              <img src="img/f.png" alt="Saweria QR" class="img-thumbnail" width="150">
+            </li>
+          </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <small class="block">&coppy; 2025 ElvanTiara Wedding. All Rights Reserved</small>
+          <small class="block">Design by<a href="https://instagram.com/tiara.elvan">@tiara.elvan</a> <i
+              class="bi bi-instagram"></i></small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+  <script>
+    simplyCountdown('.simply-countdown', {
+      year: 2025, // required
+      month: 12, // required
+      day: 22, // required
+      hours: 8, // Default is 0 [0-23] integer
+      minutes: 0, // Default is 0 [0-59] integer
+      seconds: 0, // Default is 0 [0-59] integer
+      words: { //words displayed into the countdown
+        days: { singular: 'Hari', plural: 'Hari' },
+        hours: { singular: 'Jam', plural: 'Jam' },
+        minutes: { singular: 'Menit', plural: 'Menit' },
+        seconds: { singular: 'Detik', plural: 'Detik' }
+      },
+    });
+  </script>
+
+  <script>
+    const rootElement = document.querySelector(":root");
+    function disableScroll() {
+      scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+      window.onscroll = function () {
+        window.scrollTo(scrollTop, scrollLeft);
+      }
+
+      rootElement.style.scrollBehavior = 'auto';
+    }
+
+    function enableScroll() {
+      window.onscroll = function () {
+        rootElement.style.scrollBehavior = 'smooth';
+        localStorage.setItem('opened', 'true');
+      }
+      if (!localStorage.getItem('opened'))
+        disableScorll();
+
+    }
+  </script>
+
+  <script>
+    window.addEventListener("load", function () {
+      const form = document.getElementById('my-form');
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const data = new FormData(form);
+        const action = e.target.action;
+        fetch(action, {
+          method: 'POST',
+          body: data,
+        })
+          .then(() => {
+            alert("Konfirmasi Kehadiran Berhasil Terkirim!");
+          })
+      });
+    });
+  </script>
+
+</body>
+
+</html>
